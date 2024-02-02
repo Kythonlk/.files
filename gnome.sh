@@ -1,5 +1,9 @@
 #!/bin/bash
 
+	
+sudo apt update && sudo apt install i3
+sudo apt update
+
 sudo apt install gnome-shell-extension-managery
 sudo apt update
 

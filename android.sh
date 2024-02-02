@@ -1,5 +1,8 @@
 #!/bin/bash
 
+sudo apt install git
+sudo apt update
+
 sudo apt install openjdk-19-jre-headless
 sudo apt update 
 

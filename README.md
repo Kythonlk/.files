@@ -24,6 +24,10 @@ The script will install the following software:
 ### 1. Download the Script
 Clone this repository or download the script directly.
 
+## Git ssh-keygen
+
+ssh-keygen -t ed25519 -C "email@example.com"
+
 # Troubleshooting
 
 -  If you encounter permission issues, ensure you have executed the chmod command correctly.
