@@ -26,6 +26,7 @@ Clone this repository or download the script directly.
 
 ## Git ssh-keygen
 
+```bash
 ssh-keygen -t ed25519 -C "email@example.com"
 
 # Troubleshooting
