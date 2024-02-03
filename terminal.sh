@@ -94,5 +94,7 @@ curl -sS https://starship.rs/install.sh | sh
 echo "eval "$(starship init bash)"" >>~/.bashrc
 echo "alias v="nvim"" >>~/.bashrc
 echo "alias nr"npm run dev"" >>~/.bashrc
-echo "alias ns"npm start"" >>~/.bashrc
-echo "alias n"node"" >>~/.bashrc
+echo "alias ns="npm start"" >>~/.bashrc
+echo "alias n="node"" >>~/.bashrc
+
+source ~/.bashrc
