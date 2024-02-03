@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt install curl
+
 # Select the Nerd Font from https://www.nerdfonts.com/font-downloads
 # Testing with ShellCheck
 
@@ -85,3 +87,12 @@ echo "active_tab_font_style bold-italic" >>$KCF
 echo "active_tab_background #8631B4" >>$KCF
 echo "inactive_tab_foreground #c2c2c2" >>$KCF
 echo "inactive_tab_background #8631B4" >>$KCF
+
+sudo apt update
+curl -sS https://starship.rs/install.sh | sh
+
+echo "eval "$(starship init bash)"" >>~/.bashrc
+echo "alias v="nvim"" >>~/.bashrc
+echo "alias nr"npm run dev"" >>~/.bashrc
+echo "alias ns"npm start"" >>~/.bashrc
+echo "alias n"node"" >>~/.bashrc
