@@ -6,8 +6,9 @@ sudo apt update
 sudo apt install openjdk-19-jdk
 sudo apt update 
 
-sudo snap install node
-sudo snap update 
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+source ~/.bashrc
+nvm install 20
 
 sudo add-apt-repository ppa:maarten-fonville/android-studio
 sudo apt update
