@@ -6,7 +6,7 @@ alias v='nvim'
 alias g='git'
 alias ga='git add .'
 alias gc='git commit -m'
-alias bc="~/.bashrc"
+export B=$HOME/.bashrc
 
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
