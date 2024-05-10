@@ -6,6 +6,10 @@ alias v='nvim'
 alias g='git'
 alias ga='git add .'
 alias gc='git commit -m'
+alias gp='git push'
+alias gs='git status'
+alias gco='git checkout'
+
 export B=$HOME/.bashrc
 
 export ANDROID_HOME=$HOME/Android/Sdk
