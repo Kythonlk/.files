@@ -1,4 +1,4 @@
-# Linux Development environment Setup Script(debian).
+# Linux Development environment Setup Script(debian) / Arch Linux.
 
 ## Overview
 This script automates the process of setting up a Linux-based development environment. It installs necessary software, libraries, and tools required for software development on Linux.
