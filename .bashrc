@@ -8,8 +8,11 @@ alias ga='git add .'
 alias gc='git commit -m'
 alias gp='git push'
 alias gcl='git clone'
+alias gra='git remote add kythonlk'
 alias gs='git status'
 alias gco='git checkout'
+alias md='~/mkdir.sh'
+alias pw='~/pwd.sh'
 
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
